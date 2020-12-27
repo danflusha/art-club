@@ -1,0 +1,291 @@
+    body {
+        margin: 0;
+        padding: 0;
+        padding-top: 90px;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .header {
+        max-height: 90px;
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+    }
+    
+    .main-div {
+        padding-left: 230px;
+        background-color: white;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1920px;
+        height: 57px;
+    }
+    
+    .logo-img {
+        max-width: 113px;
+        max-height: 50px;
+    }
+    
+    .main-nav {
+        max-width: 1500px;
+        max-height: 57px;
+        background: white;
+        margin-right: 380px;
+    }
+    
+    .main-list {
+        width: 740px;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        max-height: 24px;
+    }
+    
+    .main-list>li {
+        margin-left: 45px;
+    }
+    
+    .main-list>li:first-child {
+        margin-left: 0px;
+    }
+    
+    .first-link {
+        color: black;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .sec-nav {
+        margin: auto;
+        max-height: 33px;
+        max-width: 1920px;
+        padding-bottom: 5px;
+    }
+    
+    .sec-div {
+        background: black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 33px;
+    }
+    
+    .sec-list {
+        margin: 0;
+        margin-top: 4px;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        max-height: 24px;
+    }
+    
+    .sec-link {
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .sec-list>li {
+        margin-left: 45px;
+    }
+    
+    .sec-list>li:first-child {
+        margin-left: 0px;
+    }
+    
+    .logo-profil {
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        font-size: 36px;
+        width: 430px;
+        height: 41px;
+        font-weight: 300;
+        line-height: 49px;
+    }
+    
+    .intro {
+        margin: auto;
+        align-items: center;
+        display: flex;
+        max-width: 1500px;
+        height: 457px;
+    }
+    
+    .portret {
+        width: 317px;
+        height: 348px;
+    }
+    
+    .FIO {
+        font-size: 36px;
+        margin-left: 42px;
+        width: 460px;
+        height: 87px;
+    }
+    
+    .about-aivazovskiy {
+        margin: 0;
+        margin-left: 42px;
+        margin-top: 29px;
+        width: 427px;
+        height: 209px;
+        font-size: 24px;
+    }
+    
+    .header-section-aivazovskiy {
+        background-color: black;
+    }
+    
+    .inside-header-section-aivazovskiy {
+        line-height: 116px;
+        margin: auto;
+        max-width: 1500px;
+        color: white;
+        font-size: 64px;
+    }
+    
+    .text-logo-header {
+        margin: 0;
+        margin-left: 65px;
+    }
+    
+    .container-def {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 457px;
+    }
+    
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 87px;
+        color: black;
+        width: 776px;
+        height: 255px;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .img71 {
+        width: 500px;
+        height: 314px;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+    }
+    
+    .text-logo {
+        margin: auto;
+        padding: 0;
+        width: 116px;
+        height: 50px;
+        font-weight: 300;
+        font-size: 44px;
+    }
+    
+    .nav-footer {
+        margin: auto;
+        max-height: 33px;
+        max-width: 1920px;
+    }
+    
+    .div-footer {
+        background: black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 33px;
+    }
+    
+    .ul-footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        font-style: lighter;
+        font-weight: 100;
+        font-size: 24px;
+    }
+    
+    .footer-link {
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .littel-string {
+        margin: auto;
+        width: 525px;
+        font-size: 18px;
+    }
+    
+    .footer a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .lower-string {
+        margin-left: 400;
+        width: 1500px;
+        height: 84px;
+        max-height: 60px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        line-height: 52px;
+        justify-content: center;
+    }
+    
+    .street {
+        color: white;
+        margin: auto;
+        width: 450px;
+        height: 31px;
+        font-weight: 200;
+        font-size: 24px;
+    }
+    
+    .sec-footer {
+        margin: 0;
+        margin-left: 25px;
+        text-align: center;
+        width: 169px;
+        height: 52px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    .vk {
+        margin: 0;
+        margin-left: 25px;
+        text-align: center;
+        width: 169px;
+        height: 52px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: block;
+    }
+    
+    .email {
+        margin: 0;
+        height: 52px;
+    }

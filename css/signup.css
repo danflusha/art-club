@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 57px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    max-height: 90px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+.main-div {
+    padding-left: 230px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    height: 57px;
+}
+
+.logo-img {
+    max-width: 113px;
+    max-height: 50px;
+}
+
+.main-nav {
+    max-width: 1500px;
+    max-height: 57px;
+    background: white;
+    margin-right: 257px;
+}
+
+.logo-profil {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 36px;
+    width: 340px;
+    height: 41px;
+    font-weight: 300;
+    line-height: 49px;
+}
+
+.main-list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    max-height: 24px;
+}
+
+.main-list>li {
+    margin-left: 45px;
+}
+
+.main-list>li:first-child {
+    margin-left: 0px;
+}
+
+.first-link {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.horizontal-line {
+    height: 11px;
+    background-color: black;
+}
+
+.bgimg-personal-office {
+    margin: auto;
+    background-image: url(../img/personal-office.png);
+    background-position: center;
+    width: 100%;
+    height: 810px;
+}
+
+.text-1-personal-offic {
+    margin: auto;
+    width: 548px;
+    border-bottom: 2px solid white;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: white;
+}
+
+.block-button {
+    margin: auto;
+    margin-top: 25px;
+    width: 653px;
+    height: 726px;
+}
+
+.button-section {
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 19px;
+    display: flex;
+    width: 653px;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.button-section>p {
+    color: white;
+}
+
+.button-section.login {
+    background-color: white;
+}
+
+.button-section a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    line-height: 53px;
+}
+
+.button-singup {
+    color: springgreen;
+    text-decoration: none;
+}
+
+.singup {
+    margin-top: 31px;
+    width: 225px;
+}
+
+.text-important {
+    color: white;
+    height: 61px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.button-section::-webkit-input-placeholder {
+    color: white;
+}
+
+.text-after-button {
+    text-align: center;
+    color: white;
+}
+
+.button-section:hover {
+    cursor: pointer;
+}
+
+.border-checkbox {
+    margin: auto;
+    display: flex;
+    width: 334px;
+    height: 53px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.border-checkbox {
+    cursor: pointer;
+}
+
+.text-checkbox {
+    margin: auto;
+    width: 250px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+
+.checkbox-div {
+    width: 53px;
+    height: 50px;
+    border-right: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 53px;
+}
+
+.checkbox-div.active::after {
+    content: "✓";
+    color: springgreen;
+    font-size: 45px;
+}
+
+.springgreen {
+    color: springgreen;
+}
+
+.textarea-block {
+    resize: none;
+    height: 110px;
+}
+
+.but-header {
+    padding-top: 13px;
+    width: 123px;
+    height: 52px;
+    margin-top: 13px;
+    margin-left: 50px;
+    border: 2px solid #000000;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.but-header-a {
+    text-decoration: none;
+    color: white;
+}
+
+.checkbox-div:hover {
+    cursor: pointer;
+}
+
+
+/* 
+footer
+footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.text-logo {
+    margin: auto;
+    padding: 0;
+    width: 116px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+.nav-footer {
+    margin: auto;
+    max-height: 33px;
+    max-width: 1920px;
+}
+
+.div-footer {
+    background: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 33px;
+}
+
+.ul-footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    font-style: lighter;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.footer-link {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.littel-string {
+    margin: auto;
+    width: 525px;
+    font-size: 18px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.lower-string {
+    margin-left: 400;
+    width: 1500px;
+    height: 84px;
+    max-height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    line-height: 52px;
+    justify-content: center;
+}
+
+.street {
+    color: white;
+    margin: auto;
+    width: 450px;
+    height: 31px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.sec-footer {
+    margin: 0;
+    margin-left: 25px;
+    text-align: center;
+    width: 169px;
+    height: 52px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.vk {
+    margin: 0;
+    margin-left: 25px;
+    text-align: center;
+    width: 169px;
+    height: 52px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+}
+
+.email {
+    margin: 0;
+    height: 52px;
+}
